@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Spot the Deepfake</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
@@ -140,12 +145,15 @@
   }
   footer{ font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.06em; color:var(--ink-dim); text-align:center; padding-top:6px; }
   [hidden]{ display:none !important; }
+  .masthead h1{ margin-top:8px; }
 </style>
+</head>
+<body>
 
 <div class="app">
   <div class="masthead">
     <div>
-      <div class="brand-line">NTU Cyber Security Day 2026 &middot; Ensign InfoSecurity Booth</div>
+      <div class="brand-line">NTU Cyber Security Day 2026 &middot; Ensign InfoSecurity</div>
       <h1>Spot the Deepfake</h1>
     </div>
     <div class="score-readout" id="liveScore" hidden>Score <strong class="mono" id="liveScoreVal">0/0</strong></div>
@@ -375,3 +383,5 @@
   });
 })();
 </script>
+</body>
+</html>
